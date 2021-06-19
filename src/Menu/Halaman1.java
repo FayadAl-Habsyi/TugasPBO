@@ -29,4 +29,18 @@ public class Halaman1 {
 		public void enu() {
 			
 		}
+		
+		//mmebuat 3 contruktor
+		public  Halaman1() {		
+		}
+		public Halaman1(String nama) {
+			this.nama = nama;
+			this.npm = npm;
+		}
+		public Halaman1(String nama, String npm, String kelas, String umur) {	
+			this.nama = nama;
+			this.npm = npm;
+			this.kelas = kelas;
+			this.umur = umur;
+		}
 }
