@@ -43,4 +43,37 @@ public class Halaman1 {
 			this.kelas = kelas;
 			this.umur = umur;
 		}
+		
+		
+		//membuat getter & Setter
+		public String getnama() {
+			return nama;
+		}
+		public void setnama(String nama) {
+			this.nama = nama;
+		}
+		
+		
+		public String getnpm() {
+			return npm;
+		}
+		public void setnpm(String npm) {
+			this.npm = npm;
+		}
+		
+		
+		public String getumur() {
+			return umur;
+		}
+		public void setumur(String umur) {
+			this.umur = umur;
+		}
+
+		
+		public String getkelas() {
+			return kelas;
+		}
+		public void setkelas(String kelas) {
+			this.kelas = kelas;
+		}
 }
