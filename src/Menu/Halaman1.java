@@ -26,8 +26,9 @@ public class Halaman1 {
 			String grade="A";
 			return grade;
 		}
-		public void enu() {
-			
+		public String grade() {
+			String grade="B";
+			return grade;
 		}
 		
 		//mmebuat 3 contruktor

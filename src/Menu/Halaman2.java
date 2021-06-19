@@ -35,4 +35,13 @@ public class Halaman2 extends Halaman1 {
 		public void setc() {
 			this.c = c;
 		}
+		
+		public String nilai() {
+			String grade="B";
+			return grade;
+		}
+		public String grade() {
+			String grade="C";
+			return grade;
+		}
 }
